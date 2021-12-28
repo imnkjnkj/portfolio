@@ -1,0 +1,32 @@
+:root {
+  --white-color: #ffffff;
+  --text-color: #333333;
+}
+.about {
+  color: var(--text-color);
+}
+h2,
+.about .title {
+  margin-top: 5.8215rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+}
+p,
+.about .content {
+  margin: 4.75rem 0 7.1875rem 0;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+@media (max-width: 576px) {
+  .about {
+    text-align: center;
+    padding: 25px 0;
+  }
+  h2 {
+    margin-top: 25px;
+  }
+  p {
+    margin: 19px 25px 0;
+  }
+}

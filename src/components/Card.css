@@ -1,0 +1,39 @@
+.card-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 86px 0;
+}
+.card-item img {
+  width: 635px;
+}
+.card-text {
+  width: 349px;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.card-description {
+  margin-top: 2.5rem;
+  font-size: 18px;
+  line-height: 30px;
+}
+@media (max-width: 576px) {
+  .card-item {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+  .card-item img {
+    width: 308px;
+  }
+  .card-text {
+    width: 100%;
+    margin-bottom: 19px;
+  }
+  .card-description {
+    margin-top: 15px;
+  }
+}
